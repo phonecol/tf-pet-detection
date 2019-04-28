@@ -4,9 +4,6 @@ from img_data import take_img
 from tflow import get_data_to_predict, detect_img
 
 
-
-
-
 if __name__ == '__main__':
     try:
         while True:
@@ -28,5 +25,4 @@ if __name__ == '__main__':
 
     except KeyboardInterrupt:
         print("Program override")
-        GPIO.cleanup()
 
